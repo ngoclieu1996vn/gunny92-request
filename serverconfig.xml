@@ -50,7 +50,7 @@
   <Item Name="BeginTime" Value="2000,1,1,9,0,0" />
   <Item Name="BigDicePrice" Value="400" />
   <Item Name="BigExp" Value="11906|99" />
-  <Item Name="BindMoneyMax" Value="30000|30000|30000|30000|30000|30000|30000|30000" />
+  <Item Name="BindMoneyMax" Value="10000|20000|30000|40000|50000|60000|70000|80000|90000|100000|110000|120000|130000|140000|150000" />
   <Item Name="BindMoneyRate" Value="1|1|1|1" />
   <Item Name="BlessBuffAddBuffPrice" Value="0" />
   <Item Name="BlessBuffOpenLv" Value="0" />
@@ -99,7 +99,7 @@
   <Item Name="ChristmasBuyTimeMoney" Value="150" />
   <Item Name="ChristmasEndDate" Value="2055/12/25 23:59:58" />
   <Item Name="ChristmasGifts" Value="201148,10|201149,35|201150,70|201151,120|201152,220|201153,370|201154,650|201155,1000|201156,100" />
-  <Item Name="ChristmasGiftsGetTime" Value="2013/1/1 14:00:00" />
+  <Item Name="ChristmasGiftsGetTime" Value="2026-12-25 00:00:00" />
   <Item Name="ChristmasGiftsMaxNum" Value="1000" />
   <Item Name="ChristmasMinute" Value="60" />
   <Item Name="ChristmasMonsters" Value="10012|10013|10014" />
@@ -134,13 +134,13 @@
   <Item Name="CopyInviteLevelLimit" Value="8" />
   <Item Name="CoupleFightGPRate" Value="0.5" />
   <Item Name="CreateTeamMoney" Value="0" />
-  <Item Name="CryptBossOpenDay" Value="1,1|2,2|3,3|4,4|5,5,6,0|6,5,6,0" />
+  <Item Name="CryptBossOpenDay" Value="1|2|3|4|5|6|7" />
   <Item Name="CubeGameCostEnergy" Value="0" />
   <Item Name="CurrDailyRewardID" Value="0|0" />
   <Item Name="CustomLimit" Value="5|5|5|5|5" />
   <Item Name="DailyAwardState" Value="True" />
   <Item Name="DailyLeagueFindBackMoney" Value="450,450" />
-  <Item Name="DailyRewardIDForMonth" Value="13400|13430|13434|13440|13444|13504|13506|13507|13350|13363|13377|13382|" />
+  <Item Name="DailyRewardIDForMonth" Value="1|2|3|4|5|6|7|8|9|10|11|12" />
   <Item Name="DayMaxAddPrestige" Value="0" />
   <Item Name="DDPlayActivityBeginDate" Value="2014/07/01 0:00:00" />
   <Item Name="DDPlayActivityEndDate" Value="2055/07/01 0:00:00" />
@@ -352,8 +352,8 @@
   <Item Name="ItemAdvanceRestoreMoney" Value="0" />
   <Item Name="KickPlayerMoney" Value="-1" />
   <Item Name="KingBuffPrice" Value="475,1425,2500" />
-  <Item Name="LanternHomeVisited" Value="False" />
-  <Item Name="LanternHomeVisits" Value="False" />
+  <Item Name="LanternHomeVisited" Value="10" />
+  <Item Name="LanternHomeVisits" Value="10" />
   <Item Name="LargessCommandMoneyType" Value="1" />
   <Item Name="LeagueTime" Value="21|120" />
   <Item Name="LeftRouterEndDate" Value="2020-01-01 20:55:27.270" />
@@ -460,13 +460,12 @@
   <Item Name="NationalDayDropItemProbNum" Value="16" />
   <Item Name="NationalDayDropProb" Value="3000" />
   <Item Name="NationalDayExchangeTimes" Value="2026/01/01 00:00:00" />
-  <Item Name="NationalQuestBuyCount63000" Value="0" />
-  <Item Name="NationalQuestOnSale" Value="0" />
-  <Item Name="NationalQuestPicReward" Value="0|0" />
-  <Item Name="NationalQuestPicScoreReward" Value="0|0" />
-  <Item Name="NationalQuestRankReward" Value="0|0" />
-  <Item Name="NationalQuestScoreReward" Value="0|0" />
-  <Item Name="NationalQuestSeedPrices" Value="0" />
+  <Item Name="NationalQuestOnSale" Value="11917,11917,11917" />
+  <Item Name="NationalQuestPicReward" Value="1,11917,1|2,11917,1|3,11917,1" />
+  <Item Name="NationalQuestPicScoreReward" Value="3000,11917,1|10000,11917,1|15000,11917,1|20000,11917,1" />
+  <Item Name="NationalQuestRankReward" Value="1-1,11901|2-2,11901|3-3,11901|4-10,11901|11-20,11901|21-50,11901|51-100,11901" />
+  <Item Name="NationalQuestScoreReward" Value="35,11917,1|70,11917,1|100,11917,1" />
+  <Item Name="NationalQuestSeedPrices" Value="11917,0,100|11917,20,100|11917,10,100" />
   <Item Name="NewChickenBeginTime" Value="2020/05/14 0:00:00" />
   <Item Name="NewChickenEagleEyePrice" Value="9999998, 99999997, 99999996, 99999995, 99999990" />
   <Item Name="NewChickenEndTime" Value="2020/05/14 0:00:00" />
@@ -560,7 +559,7 @@
   <Item Name="QX70001Prop" Value="70001,10601,1|70002,10401,1|70003,10602,1|70003,10101,1|70006,10201,1|70006,10301,1|70006,10401,1|" />
   <Item Name="QX70001Prop1" Value="70007,10402,1|70007,10102,1|70007,10302,1|70008,10204,1|" />
   <Item Name="QX70001Prop2" Value="70008,10302,1|70009,10405,1|70009,10305,1|70010,10102,1|70010,10202,1|70010,10604,1|70011,10305,1|70011,10405,1" />
-  <Item Name="QXGameLimitCount" Value="1" />
+  <Item Name="QXGameLimitCount" Value="3" />
   <Item Name="RaceDayCount" Value="0" />
   <Item Name="RaceMaxSorce" Value="0" />
   <Item Name="RandomPetScore" Value="3,7,100|8,12,15|13,15,5" />
@@ -640,7 +639,7 @@
   <Item Name="TanabataTreasureLimit" Value="25" />
   <Item Name="TestActive" Value="False" />
   <Item Name="ThreeCleanAwardBox" Value="1120428" />
-  <Item Name="ThreeCleanBuyCost" Value="10000" />
+  <Item Name="ThreeCleanBuyCost" Value="100" />
   <Item Name="ThreeClearColourChangeCost" Value="65000" />
   <Item Name="ThreeClearColourChangePoint" Value="25" />
   <Item Name="ThreeClearColourCleanCost" Value="100000" />
@@ -670,18 +669,18 @@
   <Item Name="TurnZoneValidDay" Value="0" />
   <Item Name="TwoColorBallBeginTime" Value="2026/01/01 00:00:00" />
   <Item Name="TwoColorBallEndTime" Value="2026/01/01 00:00:00" />
-  <Item Name="TwoPlayerRefreshBuffPrice" Value="0" />
+  <Item Name="TwoPlayerRefreshBuffPrice" Value="100" />
   <Item Name="UnrealContestPveID" Value="0" />
   <Item Name="UserFaceRange" Value="49|66" />
   <Item Name="VietnamFeatures" Value="True" />
-  <Item Name="VIPAddPrestigeTimes" Value="2026/01/01 00:00:00" />
+  <Item Name="VIPAddPrestigeTimes" Value="0|0|0|0|0|5|5|5|10|10|10|15|15|15|15" />
   <Item Name="VIPDailyPackID" Value="112112|112113|112114|112115|112116|112117|112118|112119|112120|112204|112205|112206" />
   <Item Name="VIPExpBonusForValueVIP" Value="5" />
   <Item Name="VIPExpDecreasePerDay" Value="5" />
   <Item Name="VIPExpForEachLv" Value="1|50|100|200|300|700|1200|1800|3000" />
   <Item Name="VIPExpGainPerDay" Value="10" />
   <Item Name="VIPExpNeededForEachLv" Value="1|50|100|200|300|700|1200|1800|3000" />
-  <Item Name="VIPExtraBindMoneyUpper" Value="0|0|0|9999|9999|12999|12999|12999|12999|19999|19999|19999" />
+  <Item Name="VIPExtraBindMoneyUpper" Value="0|0|0|0|0|5000|5000|5000|10000|10000|10000|15000|15000|15000|15000" />
   <Item Name="VIPGpBonusRatePerLevel" Value="0.1" />
   <Item Name="VIPLevelGiftID" Value="11023|11024|11025" />
   <Item Name="VIPLotteryCountMaxPerDay" Value="3|4|5|6|7|8|9|10|11|12|13|15" />
@@ -697,7 +696,7 @@
   <Item Name="VIPSpaTimeBonusPerLevel" Value="30" />
   <Item Name="VIPStrengthenEx" Value="10|20|30|40|50|60|70|80|90|100|110|150" />
   <Item Name="VIPTakeCardDisCount" Value="100|100|100|90|90|80|80|80|80|80|70|70" />
-  <Item Name="VirtualName" Value="Emrullah♥,Baran♥,MEGUMİN♥,NORA♥" />
+  <Item Name="VirtualName" Value="Emrullahâ™¥,Baranâ™¥,MEGUMÄ°Nâ™¥,NORAâ™¥" />
   <Item Name="WantTryAgainValues" Value="2002,500|2102,500|1073,500|1173,500|1274,500|1375,500|7004,500|7104,500|7204,500|3106,500|3206,500|3306,500|4103,500|4203,500|4303,500|5104,500|5204,500|5304,500|6104,500|6204,500|6304,500|12004,500" />
   <Item Name="WarriorFamMaxLevel" Value="40" />
   <Item Name="WarriorFamRaidDDTPrice" Value="5000" />
@@ -705,15 +704,14 @@
   <Item Name="WarriorFamRaidPricePerMin" Value="10" />
   <Item Name="WarriorFamRaidPriceSmall" Value="30000" />
   <Item Name="WarriorFamRaidTimeRemain" Value="120" />
-  <Item Name="WarriorFamRankConfig" Value="0|0" />
-  <Item Name="WarriorFamRankRewards1" Value="0|0" />
-  <Item Name="WarriorFamRankRewards2" Value="0|0" />
-  <Item Name="WarriorFamRankRewards3" Value="0|0" />
-  <Item Name="WarriorFamRankRewards4" Value="0|0" />
-  <Item Name="WarriorFamRankRewardsGift1130" Value="0|0" />
+  <Item Name="WarriorFamRankConfig" Value="30,10,0.5|35,10,0.5|40,10,0.5|45,10,0.5|50,10,0.5" />
+  <Item Name="WarriorFamRankRewards1" Value="1-10,11901|11-20,11901" />
+  <Item Name="WarriorFamRankRewards2" Value="1-10,11901|11-20,11901" />
+  <Item Name="WarriorFamRankRewards3" Value="1-10,11901|11-20,11901" />
+  <Item Name="WarriorFamRankRewards4" Value="1-10,11901|11-20,11901" />
   <Item Name="WarriorFamSwitch" Value="True" />
   <Item Name="WarriorFamTrySwitch" Value="False" />
-  <Item Name="WarriorHighFamMaxLevel" Value="0" />
+  <Item Name="WarriorHighFamMaxLevel" Value="50" />
   <Item Name="WeaponShellNormalAdd" Value="0" />
   <Item Name="WeddingAutoAward" Value="False" />
   <Item Name="WheelOfFortuneLevelLimit" Value="0" />
@@ -782,4 +780,64 @@
   <Item Name="YooFoodScoreReward" Value="0|0" />
   <Item Name="YYEveryDayTemplateID" Value="112316,112317,112318,112319,112320,112321" />
   <Item Name="YYYearTemplateID" Value="112322" />
+  <Item Name="YooFoodItemsCount" Value="1|2|3" />
+  <Item Name="WithcBlessMoney" Value="100" />
+  <Item Name="DragonBoatBuildStage" Value="1|2|3" />
+  <Item Name="DepotBuyMoney" Value="100,200,300" />
+  <Item Name="EntertainmentScore" Value="10,20,30" />
+  <Item Name="PetDisappearPlayCount" Value="1|2|3" />
+  <Item Name="HomeTDSkillPrice" Value="100,200,300" />
+  <Item Name="UnrealContestBuyCost" Value="100" />
+  <Item Name="WarriorFamRankRewardsGift1" Value="1-10,11901|11-20,11901" />
+  <Item Name="HomeLvLimit" Value="10" />
+  <Item Name="YearMonsterBuyPrice" Value="100|200|300" />
+  <Item Name="WitchBlessGP" Value="100|200|300" />
+  <Item Name="LocalConsortiaMatchDays" Value="1|2|3|4|5|6|7" />
+  <Item Name="ApprenticesLvAddAttrPer" Value="10|20|30|40|50" />
+  <Item Name="HorseGameBuffConfig" Value="10|20|30" />
+  <Item Name="CookPanaxEndDate" Value="2026-12-31 23:59:59|2026-12-31 23:59:59" />
+  <Item Name="PetDisappearUserBlood" Value="1000|2000" />
+  <Item Name="HouseUpgradeUse" Value="1,100|2,200" />
+  <Item Name="HomeTDHomeBoxID" Value="11201,11202" />
+  <Item Name="OldPlayerShopBuyLimit" Value="10" />
+  <Item Name="HomeTDHomeBlood" Value="1000" />
+  <Item Name="HomeTDSkillEffect" Value="1,2,3" />
+  <Item Name="TankMatchFastTime" Value="10" />
+  <Item Name="CookPanaxBeginDate" Value="2026-01-01 00:00:00|2026-01-01 00:00:00" />
+  <Item Name="ConsortiaMatchEndTime" Value="2026-12-31 23:59:59" />
+  <Item Name="JewelSystemSkillOpenPos" Value="1_2_10,2_4_1000,3_6_2000,4_8_4000,5_10_8000" />
+  <Item Name="DDFundPrice" Value="100,200,300" />
+  <Item Name="BuyClothGroupCost" Value="1,100|2,200|3,300" />
+  <Item Name="RecreationPvpMinLevel" Value="20" />
+  <Item Name="PrayGoodsActivityConfig" Value="1|2|3" />
+  <Item Name="HelpGameBuffPrice" Value="100|200|300" />
+  <Item Name="HomeTDRevivePrice" Value="100" />
+  <Item Name="WitchBlessDoubleGpTime" Value="10" />
+  <Item Name="UnrealContestEndDate" Value="2026-12-31 23:59:59" />
+  <Item Name="YearMonsterBuyTimes" Value="10" />
+  <Item Name="UnrealContestLevelLimits" Value="30,40" />
+  <Item Name="WorshipMoonBeginDate" Value="2026-01-01 00:00:00" />
+  <Item Name="RecreationPvpRefreshPropBindMoney" Value="100" />
+  <Item Name="EveryDayOpenPrice" Value="100|200|300" />
+  <Item Name="WarPassSeasonEndTime" Value="2026-12-31 23:59:59" />
+  <Item Name="PetDisappearPlaySonCount" Value="1|2|3" />
+  <Item Name="HelpGameCleanCDPrice" Value="100|200|300" />
+  <Item Name="ApprenticesLvVitReducePer" Value="5|10|15|20|25" />
+  <Item Name="WorshipMoonEndDate" Value="2026-12-31 23:59:59" />
+  <Item Name="KingBuffPriceDiscount" Value="1" />
+  <Item Name="AreaConsortiaMatchDays" Value="1|2|3|4|5|6|7" />
+  <Item Name="VIP11BagVIPLevelToBagCount" Value="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15" />
+  <Item Name="DragonBoatFastTime" Value="10" />
+  <Item Name="MagicStoneCostItem" Value="11201" />
+  <Item Name="ApprenticesLvChargeRetPer" Value="5|10|15|20|25" />
+  <Item Name="SevenDayTargetReward" Value="1|2|3" />
+  <Item Name="YooFoodItems" Value="11201,11202,11203" />
+  <Item Name="ConsortiaMatchStartTime" Value="2026-01-01 00:00:00" />
+  <Item Name="IsOpenWealthTree" Value="True" />
+  <Item Name="CallScoreLimit" Value="100" />
+  <Item Name="YooFoodItemPrices" Value="100,200,300" />
+  <Item Name="PetDisappearNPCBlood" Value="1000|2000" />
+  <Item Name="NationalQuestBuyCount" Value="10,50" />
+  <Item Name="HomeBarCleanCDPrice" Value="10" />
+  <Item Name="DanDanBuffPrice" Value="100,200,300" />
 </Result>
