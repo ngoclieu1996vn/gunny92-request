@@ -1,0 +1,3 @@
+<!-- Visual preload required by LoadBombManager.SpecialAllBomb. Existing server
+     ball definitions take precedence. This entry does not enable a server weapon. -->
+<Item ID="11517" Power="0" Radii="60" FlyingPartical="11517" BombPartical="11517" Crater="" AttackResponse="0" IsSpin="false" SpinV="0" SpinVA="0" Amount="1" Wind="240" DragIndex="1" Weight="70" Shake="false" ShootSound="023" BombSound="093" ActionType="0" Mass="10" />

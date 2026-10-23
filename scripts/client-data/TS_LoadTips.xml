@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Result value="true" message="Success!">
+  <Item LoadType="1" Grades="1-999" Tips="Dùng phím trái, phải để di chuyển nhân vật." />
+  <Item LoadType="1" Grades="1-999" Tips="Dùng phím lên, xuống để điều chỉnh góc bắn." />
+  <Item LoadType="1" Grades="1-999" Tips="Giữ phím Space để tăng lực, thả phím để bắn." />
+  <Item LoadType="2" Grades="1-999" Tips="Quan sát địa hình và vị trí đồng đội trước khi bắn." />
+  <Item LoadType="3" Grades="1-999" Tips="Chú ý hướng gió khi điều chỉnh góc và lực bắn." />
+</Result>

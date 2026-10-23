@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Result value="true" message="Success!">
+  <!-- This legacy backend defines no extended GameBuffInfo templates.
+       FightBuffInfo falls back to tank.game.BuffName/Tip translations for
+       existing buffs when the initialized template dictionary has no entry. -->
+</Result>
